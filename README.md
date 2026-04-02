@@ -112,7 +112,7 @@ VALUES ('pmt1001','1999-10-10','online','cid100','crt1011',NULL);
 
 ## 4.1 Basic Queries
 
-### 🔹 If the customer wants to see details of product present in the cart
+###  If the customer wants to see details of product present in the cart
 
 ```sql
 SELECT * 
@@ -131,7 +131,7 @@ WHERE Product_id IN (
 
 ---
 
-### 🔹 If a customer wants to see order history
+###  If a customer wants to see order history
 
 ```sql
 SELECT Product_id, Quantity_wished 
@@ -146,7 +146,7 @@ AND Cart_id IN (
 
 ---
 
-### 🔹 Filter products (size, gender, type)
+###  Filter products (size, gender, type)
 
 ```sql
 SELECT Product_id, Color, Cost, Seller_id 
@@ -159,7 +159,7 @@ AND Quantity > 0;
 
 ---
 
-### 🔹 Modify cart
+###  Modify cart
 
 ```sql
 DELETE FROM Cart_item 
@@ -173,7 +173,7 @@ AND Cart_id IN (
 
 ---
 
-### 🔹 Seller stops selling
+###  Seller stops selling
 
 ```sql
 DELETE FROM Seller 
@@ -186,7 +186,7 @@ WHERE Seller_id IS NULL;
 
 ---
 
-### 🔹 Products purchased on a particular date
+###  Products purchased on a particular date
 
 ```sql
 SELECT Product_id 
@@ -197,7 +197,7 @@ AND Date_Added = '2018-12-12';
 
 ---
 
-### 🔹 Count products sold per date
+###  Count products sold per date
 
 ```sql
 SELECT COUNT(Product_id) AS count_pid, Date_Added 
@@ -208,7 +208,7 @@ GROUP BY Date_Added;
 
 ---
 
-### 🔹 Total price in cart
+###  Total price in cart
 
 ```sql
 SELECT SUM(c.Quantity_wished * p.Cost) AS total_payable
@@ -225,7 +225,7 @@ AND c.purchased = 'Y';
 
 ---
 
-### 🔹 Customers who never purchased
+###  Customers who never purchased
 
 ```sql
 SELECT * 
@@ -237,7 +237,7 @@ WHERE Customer_id NOT IN (
 
 ---
 
-### 🔹 Total profit
+###  Total profit
 
 ```sql
 SELECT SUM(c.Quantity_wished * p.Cost * p.Commission / 100.0) AS total_profit
@@ -249,7 +249,7 @@ WHERE c.purchased = 'Y';
 
 ---
 
-# ⚙️ Stored Procedures & Functions
+#  Stored Procedures & Functions
 
 ### Cost Filter Procedure
 
@@ -300,7 +300,7 @@ END;
 
 ---
 
-# 🔁 Triggers
+#  Triggers
 
 ### Customer Insert Trigger
 
