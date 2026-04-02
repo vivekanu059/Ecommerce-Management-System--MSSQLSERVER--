@@ -65,9 +65,7 @@ Hence, in this project, we design a database where **small clothing sellers can 
 
 <img width="5800" height="3344" alt="new_er" src="https://github.com/user-attachments/assets/9e69a43f-54d7-402a-af08-906428f1b770" />
 
-```md
-![ER Diagram](images/er-diagram.png)
-```
+
 
 ---
 
@@ -76,9 +74,7 @@ Hence, in this project, we design a database where **small clothing sellers can 
 <img width="2476" height="2026" alt="new_relational" src="https://github.com/user-attachments/assets/c83bd060-b843-4f17-9fae-2102f7abec4f" />
 
 
-```md
-![Relational Schema](images/relational-schema.png)
-```
+---
 
 
 
