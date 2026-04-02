@@ -10,39 +10,73 @@ As a part of our University Curriculum, this project demonstrates an **E-commerc
 
 ---
 
-## Contents
-# Mini world and Project Description
-# Basic structure
-* Functional requirements
-* Entity Relation (ER) diagram and constraints
-* Relational database schema
-* Implementation
-* Creating tables
-* Inserting data
-* Queries
-* Basic queries
-* PL/SQL function
-* Trigger function
-  
-## Mini world and Description
-In this modern era of online shopping no seller wants to be left behind, moreover due to its simplicity the shift from offline selling model to an online selling model is witnessing a rampant growth.
-Therefore, as an engineer our job is to ease the path of this transition for the seller. Amongst many things that an online site requires the most important is a database system. Hence in this project we are planning to design a database where small clothing sellers can sell their product online.
+## 📚 Contents
 
-## Basic Structure
-# Functional requirement
-A new user can register on the website.
-A customer can see details of the product present in the cart
-A customer can view his order history.
-Admin can start a sale with certain discount on every product.
-Customer can filter the product based on the product details.
-A customer can add or delete a product from the cart.
-A seller can unregister/ stop selling his product.
-A seller/ customer can update his details.
-Admin can view the products purchased on particular date.
-Admin can view number of products sold on a particular date.
-A customer can view the total price of product present in the cart unpurchased.
-Admin can view details of customer who have not purchased anything.
-Admin can view total profit earned from the website.
+* Mini World and Project Description
+* Basic Structure
+
+  * Functional Requirements
+  * Entity Relation (ER) Diagram and Constraints
+  * Relational Database Schema
+* Implementation
+
+  * Creating Tables
+  * Inserting Data
+* Queries
+
+  * Basic Queries
+  * Functions (T-SQL)
+  * Triggers
+
+---
+
+# 🧩 1. Mini World and Description
+
+In this modern era of online shopping, no seller wants to be left behind. Moreover, due to its simplicity, the shift from an offline selling model to an online selling model is witnessing rapid growth.
+
+Therefore, as engineers, our job is to ease this transition for sellers. Among the many components required for an online platform, the most important is a **database system**.
+
+Hence, in this project, we design a database where **small clothing sellers can sell their products online efficiently**.
+
+---
+
+# 🏗️ 2. Basic Structure
+
+## 🔹 2.1 Functional Requirements
+
+* A new user can register on the website
+* A customer can view details of products present in the cart
+* A customer can view their order history
+* Admin can start a sale with discounts on products
+* Customers can filter products based on attributes
+* A customer can add or remove products from the cart
+* A seller can unregister or stop selling products
+* Sellers and customers can update their details
+* Admin can view products purchased on a specific date
+* Admin can view the number of products sold on a specific date
+* A customer can view the total price of unpurchased items in the cart
+* Admin can view customers who have not made any purchases
+* Admin can calculate total profit earned from the platform
+
+---
+
+## 🔹 2.2 Entity Relation (ER) Diagram and Constraints
+
+> Add your ER diagram image here
+
+```md
+![ER Diagram](images/er-diagram.png)
+```
+
+---
+
+## 🔹 2.3 Relational Database Schema
+
+> Add your relational schema image here
+
+```md
+![Relational Schema](images/relational-schema.png)
+```
 
 
 
