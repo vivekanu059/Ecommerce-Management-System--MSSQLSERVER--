@@ -4,13 +4,13 @@ As a part of our University Curriculum, this project demonstrates an **E-commerc
 
 ---
 
-## 📌 Pre-requisite
+##  Pre-requisite
 
 * Microsoft SQL Server (SSMS)
 
 ---
 
-## 📦 Implementation
+##  Implementation
 
 ### 3.1 Creating Tables
 
